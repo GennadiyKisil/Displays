@@ -28,6 +28,7 @@ namespace Displays
                 listBox1.Items.Add("Primary screen" + scr.Primary.ToString());
                 listBox1.Items.Add("End definitions.");
                 listBox1.Items.Add("");
+                listBox1.Items.Add("1");
             }
         }
     }
