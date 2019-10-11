@@ -26,6 +26,7 @@ namespace Displays
                 listBox1.Items.Add("Bounds" + scr.Bounds.ToString());
                 listBox1.Items.Add("Working area" + scr.WorkingArea.ToString());
                 listBox1.Items.Add("Primary screen" + scr.Primary.ToString());
+                listBox1.Items.Add("End definitions.");
             }
         }
     }
