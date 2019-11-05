@@ -22,10 +22,9 @@ namespace Displays
             listBox1.Items.Add("List of displays:");
             foreach (Screen scr in Screen.AllScreens)
             {
-                // Add commit
-                //System.Diagnostics.Debug.Assert(Screen.AllScreens.Count<Screen>() <= 1,
-                //    "Hello, you have many then one displays!",
-                //    "Please call to your distributor.");
+                System.Diagnostics.Debug.Assert(Screen.AllScreens.Count<Screen>() <= 1,
+                    "Hello, you have many then one displays!",
+                    "Please call to your distributor.");
                 listBox1.Items.Add("Name" + scr.DeviceName);
                 listBox1.Items.Add("Bounds" + scr.Bounds.ToString());
                 listBox1.Items.Add("Working area" + scr.WorkingArea.ToString());
